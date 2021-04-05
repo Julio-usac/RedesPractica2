@@ -16,6 +16,22 @@ Conexiones de la topologia:
   <img src="img/topo2.png" width="600">
 </p>
 
+### pruebas de ping:
+
+Ping entre la VCP's de contabilidad:
+<p align="center">
+  <img src="img/ventas1ping.png" width="600">
+</p>
+<p align="center">
+  <img src="img/ventas2ping.png" width="600">
+</p>
+Ping entre las VPC's de ventas:
+<p align="center">
+  <img src="img/conta1ping.png" width="600">
+</p>
+<p align="center">
+  <img src="img/conta2ping.png" width="600">
+</p>
 ### Configuracion por dispositivos:
 Configuracion de Etherswitch router 1:
 1. Configuracion de enlaces truncales y vlans:
