@@ -9,6 +9,9 @@ Componentes a utilizar:
 - 2 Etherswitch
 - 4 Etherswitch Router
 - 1 Cloud
+### Configuracion por dispositivos:
+Configuracion de Etherswitch 1:
+1
 ### Comandos utilizados:
 
 Se utilizaron los siguientes comandos para configurar los etherswitch router:
@@ -47,3 +50,19 @@ Se utilizaron los siguientes comandos para configurar los etherswitch router:
   vtp mode client //Se cambia a modo cliente
   end
   ~~~
+6. Se utlizaron los siguientes comandos para guardar los cambios en el Etherswitch router:
+  ~~~
+  copy run start
+  write memory
+  ~~~
+
+Se utilizaron los siguientes comandos para configurar las VPC:
+1. Se utlizo el siguiente comando para configurar la ip:
+  ~~~
+  "ip 'tu ip'/'Tu mascara de red' 'tu gateway'"
+  ~~~
+2. Se utlizo el siguiente comando para guardar los cambios:
+  ~~~
+  save
+  ~~~
+
