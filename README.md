@@ -9,6 +9,13 @@ Componentes a utilizar:
 - 2 Etherswitch
 - 4 Etherswitch Router
 - 1 Cloud
+
+Conexiones de la topologia: 
+
+<p align="center">
+  <img src="img/topo2.png" width="600">
+</p>
+
 ### Configuracion por dispositivos:
 Configuracion de Etherswitch router 1:
 1. Configuracion de enlaces truncales y vlans:
@@ -46,9 +53,40 @@ Configuracion de Etherswitch router 4:
 <p align="center">
   <img src="img/router4channel.png" width="600">
 </p>
+3. Configuracion de enlace de acceso:
+<p align="center">
+  <img src="img/router4access.png" width="600">
+</p>
 
+Configuracion de ip de VPC ventas1:
 
+<p align="center">
+  <img src="img/ventas1ip.png" width="600">
+</p>
 
+Configuracion de ip de VPC conta1:
+
+<p align="center">
+  <img src="img/conta1ip.png" width="600">
+</p>
+
+Configuracion de ip de VM ventas2:
+
+<p align="center">
+  <img src="img/Vmventas2.png" width="600">
+</p>
+
+Configuracion de switch 1:
+
+<p align="center">
+  <img src="img/switch1.png" width="600">
+</p>
+
+Configuracion de switch 2:
+
+<p align="center">
+  <img src="img/switch2.png" width="600">
+</p>
 ### Comandos utilizados:
 
 Se utilizaron los siguientes comandos para configurar los etherswitch router:
