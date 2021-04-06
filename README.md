@@ -145,6 +145,7 @@ Configuracion de switch 2:
 <p align="center">
   <img src="img/switch2.png" width="600">
 </p>
+
 ### Comandos utilizados:
 
 Se utilizaron los siguientes comandos para configurar los etherswitch router:
