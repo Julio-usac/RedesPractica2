@@ -68,8 +68,11 @@ Ping entre las VPC's de ventas:
 <p align="center">
   <img src="img/conta2ping.png" width="600">
 </p>
+
 ### Configuracion por dispositivos:
+
 Configuracion de Etherswitch router 1:
+
 1. Configuracion de enlaces truncales y vlans:
 <p align="center">
   <img src="img/router1trunk.png" width="600">
@@ -79,6 +82,7 @@ Configuracion de Etherswitch router 1:
   <img src="img/router1channel.png" width="600">
 </p>
 Configuracion de Etherswitch router 2:
+
 1. Configuracion de enlaces truncales y vlans:
 <p align="center">
   <img src="img/router2trunk.png" width="600">
@@ -88,6 +92,7 @@ Configuracion de Etherswitch router 2:
   <img src="img/router2channel.png" width="600">
 </p>
 Configuracion de Etherswitch router 3:
+
 1. Configuracion de enlaces truncales y vlans:
 <p align="center">
   <img src="img/router3trunk.png" width="600">
@@ -97,6 +102,7 @@ Configuracion de Etherswitch router 3:
   <img src="img/router3channel.png" width="600">
 </p>
 Configuracion de Etherswitch router 4:
+
 1. Configuracion de enlaces truncales y vlans:
 <p align="center">
   <img src="img/router4trunk.png" width="600">
