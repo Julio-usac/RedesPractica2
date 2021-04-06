@@ -1,5 +1,63 @@
 # **MANUAL DE CONFIGURACION**
 ## Topología 1
+Pasos para configurar la topología 1
+Componentes a utilizar:
+- 2 VPC
+- 3 maquinas virtuales con linux 16.04 LTS
+- 3 Etherswitch router
+- 1 Cloud
+
+Conexiones de la topología:
+
+<p align="center">
+  <img src="img/topo3.png" width="600">
+</p>
+
+### Configuración en ESW8:
+
+<p align="center">
+  <img src="img/ESW8Vlan.png" width="600">
+</p>
+<p align="center">
+  <img src="img/ESW8Port.png" width="600">
+</p>
+
+### Configuración en ESW9:
+<p align="center">
+  <img src="img/ESW9Vlan.png" width="600">
+</p>
+<p align="center">
+  <img src="img/ESW9Port.png" width="600">
+</p>
+
+### Configuración en ESW10:
+<p align="center">
+  <img src="img/ESW10Vlan.png" width="600">
+</p>
+<p align="center">
+  <img src="img/ESW10Port.png" width="600">
+</p>
+
+### Server_Contabilidad:
+<p align="center">
+  <img src="img/serverConta.png" width="600">
+</p>
+
+### Server_Informatica:
+<p align="center">
+  <img src="img/serverInfo1.png" width="600">
+</p>
+<p align="center">
+  <img src="img/serverInfo2.png" width="600">
+</p>
+
+### Server_Ventas:
+<p align="center">
+  <img src="img/serverVentas1.png" width="600">
+</p>
+<p align="center">
+  <img src="img/serverVentas2.png" width="600">
+</p>
 ## Topología 2
 La topología 2 es la encargada de distribuir y repartir las VLANS hacia las demás topologías, es el Cuarto de telecomunciaciones
 ### Configuración de la topología de red:
