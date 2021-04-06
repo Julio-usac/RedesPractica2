@@ -1,6 +1,42 @@
 # **MANUAL DE CONFIGURACION**
 ## Topología 1
 ## Topología 2
+La topología 2 es la encargada de distribuir y repartir las VLANS hacia las demás topologías, es el Cuarto de telecomunciaciones
+### Configuración de la topología de red:
+Componentes a utilizar:
+- 4 Etherswitch Router
+- 2 Cloud
+Conexiones de la topologia: 
+
+<p align="center">
+  <img src="img/Topo2_1.png" width="600">
+</p>
+
+Podemos ver que los portchannels están configurados y la interface que se conecta a la nube en el ESW1 con el comando sh int trunk
+
+<p align="center">
+  <img src="img/Topo2_2.png" width="600">
+</p>
+
+Además el ESW1 es el que se configura en modo servidor y por lo tanto el encargado de suministrarle las VLANS creadas en este hacia los demas switchs, miramos esto con el comando sh vtp status
+
+<p align="center">
+  <img src="img/Topo2_3.png" width="600">
+</p>
+
+Para todos los demás switchs son configurados en modo cliente y las VLANs automáticamente son asignadas, como podemos ver el caso del ESW3 con el comando sh vlan-switch
+
+<p align="center">
+  <img src="img/Topo2_4.png" width="600">
+</p>
+
+Además de esto se le aplicó el Spanning Tree Protocol, esto nos ayuda a que no se enciclen los paquetes y pueda todo llegar a su destino, este fue configurado en el ESW1, lo cual genera un bloqueo de puertos en este caso en el  ESW2 y esto verifica que todo esté configurado correctamente
+
+<p align="center">
+  <img src="img/Topo2_5.png" width="600">
+</p>
+
+
 ## Topología 3
 Pasos para configurar la topologia 3.
 ### Configuración de la topología de red:
